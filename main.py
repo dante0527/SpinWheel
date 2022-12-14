@@ -4,16 +4,16 @@ from time import sleep
 
 options = [
     "Kaisen",
-    "Package Storeeeeeeee",
+    "Package Store",
     "Hangar",
-    #"Chinese",
-    #"Stop & Shop",
-    #"Spin Again",
-    #"Chipotle",
-    #"Classic Burger",
-    #"Shake Shack",
-    #"Docon Meatballs",
-    #"Dan's Choice"
+    "Chinese",
+    "Stop & Shop",
+    "Spin Again",
+    "Chipotle",
+    "Classic Burger",
+    "Shake Shack",
+    "Docon Meatballs",
+    "Dan's Choice"
 ]
 
 # Clear screen
@@ -42,7 +42,7 @@ def spin(mode: str = "elim"):
         width = 0
         for option in options:
             if len(option) > width:
-                width = len(option) + 4
+                width = len(option) + 6
 
         # First 5 choices
         c1 = choice(options)
